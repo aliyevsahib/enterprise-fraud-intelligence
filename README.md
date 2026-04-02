@@ -37,8 +37,8 @@ The algorithm flags a transaction as a critical threat (risk_label = "Fraud") if
 
 ## 📊 The Command Center (Dashboard Interface)
 ### 1. Segmented Threat Radars
-(Insert PNG of Page 1 of your dashboard here)
-![Segmented Threat Radars](link_to_your_page_1_image.png)
+<img width="900" height="600" alt="Dashboard - 1" src="https://github.com/user-attachments/assets/3124263f-f16f-409d-bb85-1621035385e8" />
+
 
 To prevent massive Corporate Wires from visually crushing standard Retail Swipes on the same axis, the dataset is strictly segmented into three auto-scaling portfolios:
 
