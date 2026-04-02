@@ -37,7 +37,7 @@ The algorithm flags a transaction as a critical threat (risk_label = "Fraud") if
 
 ## 📊 The Command Center (Dashboard Interface)
 ### 1. Segmented Threat Radars
-<img width="900" height="600" alt="Dashboard - 1" src="https://github.com/user-attachments/assets/3124263f-f16f-409d-bb85-1621035385e8" />
+<img width="1000" height="680" alt="Dashboard - 1" src="https://github.com/user-attachments/assets/3124263f-f16f-409d-bb85-1621035385e8" />
 
 
 To prevent massive Corporate Wires from visually crushing standard Retail Swipes on the same axis, the dataset is strictly segmented into three auto-scaling portfolios:
@@ -48,8 +48,8 @@ To prevent massive Corporate Wires from visually crushing standard Retail Swipes
 * Insight: Plots Customer Lifetime Value (CLV) against Peak Risk Multiplier to instantly identify high-value hijacked accounts.
 
 ### 2. Temporal Threat Tracking & Asymmetric Vulnerability
-(Insert PNG of Page 2 of your dashboard here)
-![Temporal Tracking](link_to_your_page_2_image.png)
+<img width="1000" height="680" alt="Dashboard - 2" src="https://github.com/user-attachments/assets/8424d235-c2b0-420b-bcf0-d585533a6258" />
+
 
 * Dual-Axis Timeline: Tracks total processed Volume (AZN) against the Fraud Risk % to detect coordinated, seasonal attacks by fraud rings, separating them from natural bank growth.
 * The Asymmetry Matrix: While Retail Swipes account for the highest count of fraud attempts, the Donut Chart reveals that Corporate Wires account for 98.35% (947.05M AZN) of the monetary damage, dictating where human security personnel should be deployed.
