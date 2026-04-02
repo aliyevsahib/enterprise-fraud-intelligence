@@ -1,8 +1,7 @@
 # enterprise-fraud-intelligence
 An end-to-end Big Data pipeline and executive dashboard for detecting and intercepting financial fraud using PySpark and Azure Synapse.
 
-# 🛡️ Enterprise Fraud Intelligence Command
-An End-to-End Big Data Pipeline & Machine Learning Threat Detection Platform
+# Enterprise Fraud Intelligence Command
 
 ## 📌 Executive Summary
 Financial institutions face asymmetric threats where a single compromised corporate account can cause catastrophic liquidity loss. This project is a complete, end-to-end Enterprise Data Pipeline that simulates, ingests, processes, and visualises 5.00 Million banking transactions to detect and intercept fraud rings in real-time.
