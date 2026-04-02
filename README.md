@@ -11,9 +11,9 @@ By engineering a dynamic, sliding-window algorithm in PySpark and deploying a Di
 
 ## 🏗️ Architecture & Tech Stack
 1) Data Simulation (Python): Generated 5 million rows of mathematically sound financial data utilising Lognormal Distributions to accurately simulate realistic spending behaviours across Retail, Corporate, and ATM channels.
-2)Big Data Processing (PySpark): Engineered custom behavioural aggregation pipelines to establish moving historical baselines for tens of thousands of unique accounts.
-3)Cloud Data Warehouse (Azure Synapse Analytics): Deployed a Serverless SQL endpoint to host the processed "Gold" data layer, enabling live querying of massive datasets.
-4)Command Center UI (Power BI & DAX): Designed a high-contrast, dark-mode executive dashboard utilising advanced DAX measures, dual-axis temporal tracking, and cross-filtered UI mechanics.
+2) Big Data Processing (PySpark): Engineered custom behavioural aggregation pipelines to establish moving historical baselines for tens of thousands of unique accounts.
+3) Cloud Data Warehouse (Azure Synapse Analytics): Deployed a Serverless SQL endpoint to host the processed "Gold" data layer, enabling live querying of massive datasets.
+4) Command Center UI (Power BI & DAX): Designed a high-contrast, dark-mode executive dashboard utilising advanced DAX measures, dual-axis temporal tracking, and cross-filtered UI mechanics.
 
 ## 🧠 The Detection Engine (PySpark Logic)
 Rather than relying on static rules that trigger false positives as customer wealth grows, this engine utilises Adaptive Windowing to handle Concept Drift.
