@@ -34,6 +34,8 @@ df_features = df_features.withColumn(
 
 
 The algorithm flags a transaction as a critical threat (risk_label = "Fraud") if the spend_multiplier exceeds 10x the customer's dynamically adjusting baseline, instantly detecting account takeovers regardless of whether the baseline is 5 AZN or 500,000 AZN.
+<img width="1000" height="580" alt="Python Visualisation" src="https://github.com/user-attachments/assets/f67ef32f-c88f-4f62-948a-5a822494cfef" />
+
 
 ## 📊 The Command Center (Dashboard Interface)
 ### 1. Segmented Threat Radars
