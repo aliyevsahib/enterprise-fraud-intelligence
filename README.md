@@ -18,17 +18,20 @@ By engineering a dynamic, sliding-window algorithm in PySpark and deploying a Di
 ## 🧠 The Detection Engine (PySpark Logic)
 Rather than relying on static rules that trigger false positives as customer wealth grows, this engine utilises Adaptive Windowing to handle Concept Drift.
 
-PYTHON CODE:
-Establishing a bounded historical window to adapt to current customer lifestyles
+### PYTHON CODE:
+
+
+
 history_window = Window.partitionBy('customer_id') \
                        .orderBy('timestamp') \
                        .rowsBetween(-60, -1)
 
-Calculating dynamic spending baselines
 df_features = df_features.withColumn(
     'historical_avg_amount',
     F.avg('amount').over(history_window)
 )
+
+
 
 The algorithm flags a transaction as a critical threat (risk_label = "Fraud") if the spend_multiplier exceeds 10x the customer's dynamically adjusting baseline, instantly detecting account takeovers regardless of whether the baseline is 5 AZN or 500,000 AZN.
 
